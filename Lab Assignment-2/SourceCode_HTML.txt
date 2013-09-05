@@ -1,0 +1,58 @@
+<!--Importing Google map webservices-->
+<script src="http://maps.googleapis.com/maps/api/js?key=AIzaSyCVpz20bvnru2MF292oEW6uBA1XqlVXSng&sensor=false">
+</script>
+
+<!--Adding header to the home page-->
+<div data-role="page" id="homePage" theme="a">
+    <div data-role="header" position="fixed">
+    <h1>Google Map Services</h1>
+    </div>
+ 
+<!--Adding content to the home page-->
+    <div data-role="content">
+    <p><a href="#GoogleMap" data-role="button">Direction Service</a></p>
+    <p><a href="#ElevationService" data-role="button">Elevation Service</a></p>
+    </div>
+    
+<!--Adding Popup to the home page-->    
+   <p align="center"><a href="#popupBasic" data-rel="popup">Help</a>     </p>
+    <div data-role="popup" id="popupBasic">
+        <p>Contact HelpDesk 812-391-1053</p>
+    </div>
+
+  
+<!--Adding footer to the home page-->
+    <div data-role="footer" id="footer">
+        <h1 align="center">UMKC</h1>
+    </div>
+</div>
+
+<!--Design of GoogleMap page-->
+<div data-role="page" id="GoogleMap" theme="a">
+    <div data-role="header" position="fixed">
+        <a data-rel="back" data-icon="back">Back</a>
+        <h1>Direction Service</h1>
+    </div>
+    
+    <div data-role="content" id="map_canvas">
+    </div>
+  
+    <div data-role="footer" id="footer" theme="a">
+    </div>
+</div>
+
+<!--Design of Elevation Service page-->
+<div data-role="page" id="ElevationService" theme="a">
+    <div data-role="header" position="fixed">
+        <a data-rel="back" data-icon="back">Back</a>
+        <h1>Elevation Service</h1>
+    </div>
+    
+    <div data-role="content" id="map_canvas">
+    </div>
+
+    <div data-role="footer" id="footer" theme="a">
+    </div>
+</div>
+
+

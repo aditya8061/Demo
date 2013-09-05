@@ -1,0 +1,95 @@
+//Direction Service Function
+$("#GoogleMap").on("pageshow",function(e){
+   
+  var directionsDisplay;
+var directionsService = new google.maps.DirectionsService();
+var map;
+
+function initialize() {
+  directionsDisplay = new google.maps.DirectionsRenderer();
+  var chicago = new google.maps.LatLng(41.850033, -87.6500523);
+  var mapOptions = {
+    zoom:7,
+    mapTypeId: google.maps.MapTypeId.ROADMAP,
+    center: chicago
+  }
+  map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+  directionsDisplay.setMap(map);
+}
+
+function calcRoute() {
+  var start = document.getElementById('start').value;
+  var end = document.getElementById('end').value;
+  var request = {
+      origin:start,
+      destination:end,
+      travelMode: google.maps.DirectionsTravelMode.DRIVING
+  };
+  directionsService.route(request, function(response, status) {
+    if (status == google.maps.DirectionsStatus.OK) {
+      directionsDisplay.setDirections(response);
+    }
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+}
+
+//Elevation Service
+$("#GoogleMap").on("pageshow",function(e){
+var elevator;
+var map;
+var infowindow = new google.maps.InfoWindow();
+var denali = new google.maps.LatLng(63.3333333, -150.5);
+
+function initialize() {
+  var mapOptions = {
+    zoom: 8,
+    center: denali,
+    mapTypeId: 'terrain'
+  }
+  map = new google.maps.Map(document.getElementById('map_canvas'), mapOptions);
+
+  // Create an ElevationService
+  elevator = new google.maps.ElevationService();
+
+  // Add a listener for the click event and call getElevation on that location
+  google.maps.event.addListener(map, 'click', getElevation);
+}
+
+function getElevation(event) {
+
+  var locations = [];
+
+  // Retrieve the clicked location and push it on the array
+  var clickedLocation = event.latLng;
+  locations.push(clickedLocation);
+
+  // Create a LocationElevationRequest object using the array's one value
+  var positionalRequest = {
+    'locations': locations
+  }
+
+  // Initiate the location request
+  elevator.getElevationForLocations(positionalRequest, function(results, status) {
+    if (status == google.maps.ElevationStatus.OK) {
+
+      // Retrieve the first result
+      if (results[0]) {
+
+        // Open an info window indicating the elevation at the clicked position
+        infowindow.setContent('The elevation at this point <br>is ' + results[0].elevation + ' meters.');
+        infowindow.setPosition(clickedLocation);
+        infowindow.open(map);
+      } else {
+        alert('No results found');
+      }
+    } else {
+      alert('Elevation service failed due to: ' + status);
+    }
+  });
+}
+
+google.maps.event.addDomListener(window, 'load', initialize);
+}
+                        
