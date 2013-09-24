@@ -1,0 +1,3 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="CalculatorService.Service1" CodeBehind="MathService.svc.cs" 
+Factory="System.ServiceModel.Activation.WebServiceHostFactory"   
+%>

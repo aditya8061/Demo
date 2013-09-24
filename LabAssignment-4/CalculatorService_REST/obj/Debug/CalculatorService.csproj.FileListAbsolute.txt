@@ -1,0 +1,5 @@
+c:\users\aditya deshpande\documents\visual studio 2012\Projects\CalculatorService\bin\CalculatorService.dll
+c:\users\aditya deshpande\documents\visual studio 2012\Projects\CalculatorService\bin\CalculatorService.pdb
+c:\users\aditya deshpande\documents\visual studio 2012\Projects\CalculatorService\obj\Debug\CalculatorService.csprojResolveAssemblyReference.cache
+c:\users\aditya deshpande\documents\visual studio 2012\Projects\CalculatorService\obj\Debug\CalculatorService.dll
+c:\users\aditya deshpande\documents\visual studio 2012\Projects\CalculatorService\obj\Debug\CalculatorService.pdb
