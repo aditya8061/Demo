@@ -1,4 +1,4 @@
-Demo
+UMKC Graduate Courses: Advanced Software Engineering and Knowledge Management
 ====
 
-It is my ASE project demo for Github
+Includes all lab assignments,midterms and projects
