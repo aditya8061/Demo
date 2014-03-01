@@ -1,0 +1,182 @@
+Number of labels: 3
+Number of documents in training set: 80
+Tweet: 1	HP Laptop 
+  Car: -34.66246182574779  Electronics: -17.366554446092934  RealEstate: -36.56895286007263 => Electronics
+Tweet: 2	3BHK is available in Holmes area
+  Car: -88.12353439353835  Electronics: -88.86498916713755  RealEstate: -51.99081474515079 => RealEstate
+Tweet: 3	Honda CRV has an rpm of 1000
+  Car: -52.17095811006312  Electronics: -93.01999120686064  RealEstate: -101.32116793306184 => Car
+Tweet: 4	Lenevo Laptop	
+  Car: -32.42688789144813  Electronics: -13.325785588640215  RealEstate: -34.21041877124792 => Electronics
+Tweet: 5	fully furnished flat in Overland park
+  Car: -93.19846484578787  Electronics: -93.98261912565859  RealEstate: -47.649481911146374 => RealEstate
+Tweet: 6	Toyota has well equipped Stereophonic sound
+  Car: -87.98927496608925  Electronics: -117.35121213959519  RealEstate: -126.77646897420922 => Car
+Tweet: 7	Samsung TV		
+  Car: -41.826193262469516  Electronics: -21.371081880948974  RealEstate: -44.12670102373889 => Electronics
+Tweet: 8	1BHK furnished flat for sale
+  Car: -63.3783614515703  Electronics: -61.266126527085845  RealEstate: -28.053702684571075 => RealEstate
+Tweet: 9	Maruti has excellent mileage
+  Car: -26.60949988081395  Electronics: -58.001384645028935  RealEstate: -64.68473384135342 => Car
+Tweet: 10	Apple 10"" Laptop
+  Car: -52.22219755553307  Electronics: -23.170388294384907  RealEstate: -55.09450223870502 => Electronics
+Tweet: 11	flat for sale
+  Car: -26.124486109240323  Electronics: -23.69880411414374  RealEstate: -9.464039991563975 => RealEstate
+Tweet: 12	Toyota has excellent Stereophonic sound
+  Car: -46.797449679042124  Electronics: -84.22815565957393  RealEstate: -92.12315764088814 => Car
+Tweet: 13	Dell 15"" Laptop
+  Car: -56.693345424132374  Electronics: -27.868703973062114  RealEstate: -59.81157041635442 => Electronics
+Tweet: 14	Duplex House for sale
+  Car: -51.396192367963735  Electronics: -49.18314173600392  RealEstate: -24.524923591867818 => RealEstate
+Tweet: 15	Hyundai has excellent tyres
+  Car: -47.64476908342404  Electronics: -69.20423343358067  RealEstate: -76.40514397693256 => Car
+Tweet: 16	Apple 14"" Laptop
+  Car: -53.808362346076095  Electronics: -25.341570388616045  RealEstate: -56.767908638552484 => Electronics
+Tweet: 17	4BHK furnished flat for sale
+  Car: -66.19485145037382  Electronics: -64.10631394076019  RealEstate: -31.832943429871765 => RealEstate
+Tweet: 18	CRV has mileage of 20 km/lit
+  Car: -64.5506425191362  Electronics: -117.78038631200451  RealEstate: -127.22547060006133 => Car
+Tweet: 19	Dell 15" Laptop
+  Car: -56.693345424132374  Electronics: -27.868703973062114  RealEstate: -59.81157041635442 => Electronics
+Tweet: 20	Fully furnished Duplex flat for sale
+  Car: -79.73233162685833  Electronics: -77.7576959184881  RealEstate: -34.71545717686877 => RealEstate
+Tweet: 21	Toyota has excellent rpm
+  Car: -32.32657610946856  Electronics: -62.238878601019785  RealEstate: -69.11799613460187 => Car
+Tweet: 22	Lenevo 8GB Laptop
+  Car: -50.63603276499004  Electronics: -21.66248632885214  RealEstate: -53.42109583885754 => Electronics
+Tweet: 23	5BHK for sale
+  Car: -36.00353749322534  Electronics: -33.66097597051672  RealEstate: -19.605491627407893 => RealEstate
+Tweet: 24	Maruti has excellent tyres 
+  Car: -31.86301239802166  Electronics: -62.51015190728347  RealEstate: -69.40180201900282 => Car
+Tweet: 25	Apple 8GB Laptop
+  Car: -48.40045883069038  Electronics: -19.53575561280654  RealEstate: -51.06256175003284 => Electronics
+Tweet: 26	Duplex flat for sale
+  Car: -44.333630982782225  Electronics: -42.06115729330528  RealEstate: -18.16271270132459 => RealEstate
+Tweet: 27	Maruti has excellent mileage
+  Car: -26.60949988081395  Electronics: -58.001384645028935  RealEstate: -64.68473384135342 => Car
+Tweet: 28	Samsung 4GB Laptop
+  Car: -56.043936280375746  Electronics: -27.46830110466164  RealEstate: -59.12644272737718 => Electronics
+Tweet: 29	1BHK fully furnished flat for sale
+  Car: -82.32374514344052  Electronics: -80.37091309893219  RealEstate: -37.48032542067818 => RealEstate
+Tweet: 30	Maruti has excellent mileage
+  Car: -26.60949988081395  Electronics: -58.001384645028935  RealEstate: -64.68473384135342 => Car
+Tweet: 31	HP Laptop 
+  Car: -34.66246182574779  Electronics: -17.366554446092934  RealEstate: -36.56895286007263 => Electronics
+Tweet: 32	3BHK is available in Holmes area
+  Car: -88.12353439353835  Electronics: -88.86498916713755  RealEstate: -51.99081474515079 => RealEstate
+Tweet: 33	Honda CRV has an rpm of 1000
+  Car: -52.17095811006312  Electronics: -93.01999120686064  RealEstate: -101.32116793306184 => Car
+Tweet: 34	Lenevo Laptop	
+  Car: -32.42688789144813  Electronics: -13.325785588640215  RealEstate: -34.21041877124792 => Electronics
+Tweet: 35	fully furnished flat in Overland park
+  Car: -93.19846484578787  Electronics: -93.98261912565859  RealEstate: -47.649481911146374 => RealEstate
+Tweet: 36	Toyota has well equipped Stereophonic sound
+  Car: -87.98927496608925  Electronics: -117.35121213959519  RealEstate: -126.77646897420922 => Car
+Tweet: 37	Samsung TV		
+  Car: -41.826193262469516  Electronics: -21.371081880948974  RealEstate: -44.12670102373889 => Electronics
+Tweet: 38	1BHK furnished flat for sale
+  Car: -63.3783614515703  Electronics: -61.266126527085845  RealEstate: -28.053702684571075 => RealEstate
+Tweet: 39	Maruti has excellent mileage
+  Car: -26.60949988081395  Electronics: -58.001384645028935  RealEstate: -64.68473384135342 => Car
+Tweet: 40	Apple 10"" Laptop
+  Car: -52.22219755553307  Electronics: -23.170388294384907  RealEstate: -55.09450223870502 => Electronics
+Tweet: 41	flat for sale
+  Car: -26.124486109240323  Electronics: -23.69880411414374  RealEstate: -9.464039991563975 => RealEstate
+Tweet: 42	Toyota has excellent Stereophonic sound
+  Car: -46.797449679042124  Electronics: -84.22815565957393  RealEstate: -92.12315764088814 => Car
+Tweet: 43	Dell 15"" Laptop
+  Car: -56.693345424132374  Electronics: -27.868703973062114  RealEstate: -59.81157041635442 => Electronics
+Tweet: 44	Duplex House for sale
+  Car: -51.396192367963735  Electronics: -49.18314173600392  RealEstate: -24.524923591867818 => RealEstate
+Tweet: 45	Hyundai has excellent tyres
+  Car: -47.64476908342404  Electronics: -69.20423343358067  RealEstate: -76.40514397693256 => Car
+Tweet: 46	Apple 14"" Laptop
+  Car: -53.808362346076095  Electronics: -25.341570388616045  RealEstate: -56.767908638552484 => Electronics
+Tweet: 47	4BHK furnished flat for sale
+  Car: -66.19485145037382  Electronics: -64.10631394076019  RealEstate: -31.832943429871765 => RealEstate
+Tweet: 48	CRV has mileage of 20 km/lit
+  Car: -64.5506425191362  Electronics: -117.78038631200451  RealEstate: -127.22547060006133 => Car
+Tweet: 49	Dell 15" Laptop
+  Car: -56.693345424132374  Electronics: -27.868703973062114  RealEstate: -59.81157041635442 => Electronics
+Tweet: 50	Fully furnished Duplex flat for sale
+  Car: -79.73233162685833  Electronics: -77.7576959184881  RealEstate: -34.71545717686877 => RealEstate
+Tweet: 51	Toyota has excellent rpm
+  Car: -32.32657610946856  Electronics: -62.238878601019785  RealEstate: -69.11799613460187 => Car
+Tweet: 52	Lenevo 8GB Laptop
+  Car: -50.63603276499004  Electronics: -21.66248632885214  RealEstate: -53.42109583885754 => Electronics
+Tweet: 53	5BHK for sale
+  Car: -36.00353749322534  Electronics: -33.66097597051672  RealEstate: -19.605491627407893 => RealEstate
+Tweet: 54	Maruti has excellent tyres 
+  Car: -31.86301239802166  Electronics: -62.51015190728347  RealEstate: -69.40180201900282 => Car
+Tweet: 55	Apple 8GB Laptop
+  Car: -48.40045883069038  Electronics: -19.53575561280654  RealEstate: -51.06256175003284 => Electronics
+Tweet: 56	Duplex flat for sale
+  Car: -44.333630982782225  Electronics: -42.06115729330528  RealEstate: -18.16271270132459 => RealEstate
+Tweet: 57	Maruti has excellent mileage
+  Car: -26.60949988081395  Electronics: -58.001384645028935  RealEstate: -64.68473384135342 => Car
+Tweet: 58	Samsung 4GB Laptop
+  Car: -56.043936280375746  Electronics: -27.46830110466164  RealEstate: -59.12644272737718 => Electronics
+Tweet: 59	1BHK fully furnished flat for sale
+  Car: -82.32374514344052  Electronics: -80.37091309893219  RealEstate: -37.48032542067818 => RealEstate
+Tweet: 60	Maruti has excellent mileage
+  Car: -26.60949988081395  Electronics: -58.001384645028935  RealEstate: -64.68473384135342 => Car
+Tweet: 61	HP Laptop 
+  Car: -34.66246182574779  Electronics: -17.366554446092934  RealEstate: -36.56895286007263 => Electronics
+Tweet: 62	3BHK is available in Holmes area
+  Car: -88.12353439353835  Electronics: -88.86498916713755  RealEstate: -51.99081474515079 => RealEstate
+Tweet: 63	Honda CRV has an rpm of 1000
+  Car: -52.17095811006312  Electronics: -93.01999120686064  RealEstate: -101.32116793306184 => Car
+Tweet: 64	Lenevo Laptop	
+  Car: -32.42688789144813  Electronics: -13.325785588640215  RealEstate: -34.21041877124792 => Electronics
+Tweet: 65	fully furnished flat in Overland park
+  Car: -93.19846484578787  Electronics: -93.98261912565859  RealEstate: -47.649481911146374 => RealEstate
+Tweet: 66	Toyota has well equipped Stereophonic sound
+  Car: -87.98927496608925  Electronics: -117.35121213959519  RealEstate: -126.77646897420922 => Car
+Tweet: 67	Samsung TV		
+  Car: -41.826193262469516  Electronics: -21.371081880948974  RealEstate: -44.12670102373889 => Electronics
+Tweet: 68	1BHK furnished flat for sale
+  Car: -63.3783614515703  Electronics: -61.266126527085845  RealEstate: -28.053702684571075 => RealEstate
+Tweet: 69	Maruti has excellent mileage
+  Car: -26.60949988081395  Electronics: -58.001384645028935  RealEstate: -64.68473384135342 => Car
+Tweet: 70	Apple 10"" Laptop
+  Car: -52.22219755553307  Electronics: -23.170388294384907  RealEstate: -55.09450223870502 => Electronics
+Tweet: 71	flat for sale
+  Car: -26.124486109240323  Electronics: -23.69880411414374  RealEstate: -9.464039991563975 => RealEstate
+Tweet: 72	Toyota has excellent Stereophonic sound
+  Car: -46.797449679042124  Electronics: -84.22815565957393  RealEstate: -92.12315764088814 => Car
+Tweet: 73	Dell 15"" Laptop
+  Car: -56.693345424132374  Electronics: -27.868703973062114  RealEstate: -59.81157041635442 => Electronics
+Tweet: 74	Duplex House for sale
+  Car: -51.396192367963735  Electronics: -49.18314173600392  RealEstate: -24.524923591867818 => RealEstate
+Tweet: 75	Hyundai has excellent tyres
+  Car: -47.64476908342404  Electronics: -69.20423343358067  RealEstate: -76.40514397693256 => Car
+Tweet: 76	Apple 14"" Laptop
+  Car: -53.808362346076095  Electronics: -25.341570388616045  RealEstate: -56.767908638552484 => Electronics
+Tweet: 77	4BHK furnished flat for sale
+  Car: -66.19485145037382  Electronics: -64.10631394076019  RealEstate: -31.832943429871765 => RealEstate
+Tweet: 78	CRV has mileage of 20 km/lit
+  Car: -64.5506425191362  Electronics: -117.78038631200451  RealEstate: -127.22547060006133 => Car
+Tweet: 79	Dell 15" Laptop
+  Car: -56.693345424132374  Electronics: -27.868703973062114  RealEstate: -59.81157041635442 => Electronics
+Tweet: 80	Fully furnished Duplex flat for sale
+  Car: -79.73233162685833  Electronics: -77.7576959184881  RealEstate: -34.71545717686877 => RealEstate
+Tweet: 81	Toyota has excellent rpm
+  Car: -32.32657610946856  Electronics: -62.238878601019785  RealEstate: -69.11799613460187 => Car
+Tweet: 82	Lenevo 8GB Laptop
+  Car: -50.63603276499004  Electronics: -21.66248632885214  RealEstate: -53.42109583885754 => Electronics
+Tweet: 83	5BHK for sale
+  Car: -36.00353749322534  Electronics: -33.66097597051672  RealEstate: -19.605491627407893 => RealEstate
+Tweet: 84	Maruti has excellent tyres 
+  Car: -31.86301239802166  Electronics: -62.51015190728347  RealEstate: -69.40180201900282 => Car
+Tweet: 85	Apple 8GB Laptop
+  Car: -48.40045883069038  Electronics: -19.53575561280654  RealEstate: -51.06256175003284 => Electronics
+Tweet: 86	Duplex flat for sale
+  Car: -44.333630982782225  Electronics: -42.06115729330528  RealEstate: -18.16271270132459 => RealEstate
+Tweet: 87	Maruti has excellent mileage
+  Car: -26.60949988081395  Electronics: -58.001384645028935  RealEstate: -64.68473384135342 => Car
+Tweet: 88	Samsung 4GB Laptop
+  Car: -56.043936280375746  Electronics: -27.46830110466164  RealEstate: -59.12644272737718 => Electronics
+Tweet: 89	1BHK fully furnished flat for sale
+  Car: -82.32374514344052  Electronics: -80.37091309893219  RealEstate: -37.48032542067818 => RealEstate
+Tweet: 90	Maruti has excellent mileage
+  Car: -26.60949988081395  Electronics: -58.001384645028935  RealEstate: -64.68473384135342 => Car
