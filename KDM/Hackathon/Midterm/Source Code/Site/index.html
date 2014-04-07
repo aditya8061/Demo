@@ -1,0 +1,158 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Concrete Slump</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	footer {
+    position: fixed;
+    height: 100px;
+    bottom: 0;
+    width: 100%;
+}
+    td{
+	padding: 4px;
+	}
+	</style>
+	
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+        <script>
+		
+		
+		$(document).ready(function(){
+        $("sbt").click(function(){
+          var cement = $('#txtCement').val();
+          var slag = $('#txtSlag').val();
+		  var ash = $('#txtash').val();
+		  var water = $('#txtwater').val();
+		  var SP = $('#txtSP').val();
+		  var coarse = $('#txtCoarse').val();
+		  var fine = $('#txtFine').val();
+		  $.ajax({
+  url : "http://134.193.136.127:8983/solr/collection1_shard1_replica1/select?q=id%3AAditya&wt=json&indent=true",
+  dataType : "json",
+  error: function(request, status, error) { alert(request.error) },
+  success : function(parsed_json) {
+      
+       //console.log(parsed_json);
+          var i = parsed_json['response']['docs']['0']['title']['0'];
+		  var c1 = parsed_json['response']['docs']['0']['title']['1'];
+		  var c2 = parsed_json['response']['docs']['0']['title']['2'];
+		  var c3 = parsed_json['response']['docs']['0']['title']['3'];
+		  var c4 = parsed_json['response']['docs']['0']['title']['4'];
+		  var c5 = parsed_json['response']['docs']['0']['title']['5'];
+		  var c6 = parsed_json['response']['docs']['0']['title']['6'];
+		  var c7 = parsed_json['response']['docs']['0']['title']['7'];
+
+	      var result = i + (c1*cement)+(c2*slag)+(c3*ash)+(c4*water)+(c5*SP)+(c6*coarse)+(c7*fine);
+		  $('#result').html("<strong>Slump flow: </strong> "+ result +"");
+
+		  
+
+      
+  }
+
+  });
+});
+ 
+		  
+		 </script>
+        <div class="container-fluid">
+        <div class="jumbotron" style="padding-top: 6px;padding-bottom: 6px;color: #FFFFFF;background-color:#61BAF6" >
+            <h1>Concrete Slump Predictor</h1>
+            <p>Concrete is a highly complex material. The slump flow of concrete is not only determined by the water content, but that is also influenced by other concrete ingredients.</p>
+        </div>
+        </div>
+
+        <div class="container">
+          <div class="row">
+		  <form>
+          <fieldset>
+          <legend>Enter concrete mixture details</legend>
+		  <table width='100%' border='0' cellspacing='3' cellpadding='3'>
+		  <tr>
+		    <td width="%25" align="left"><strong>Cement</strong></td>
+			<td width="%75" align="left">
+			<input type="text" ID="txtCement" class="large" placeholder="Enter cement value…" style="width:300px;" />
+			</td>
+		  </tr>
+		
+		  <tr>
+		    <td width="%15" align="left"><strong>Slag</strong></td>
+			<td width="%85" align="left">
+            <input type="text" ID="txtSlag" class="large" placeholder="Enter Slag value…" style="width:300px;" />
+			</td>
+		  </tr>
+		  <tr>
+		    <td width="%15" align="left"><strong>Fly ash</strong></td>
+			<td width="%85" align="left">
+            <input type="text" ID="txtash" class="large" placeholder="Enter Flag ash value…" style="width:300px;" />
+			</td>
+		  </tr>
+		  <tr>
+		    <td width="%15" align="left"><strong>Water</strong></td>
+			<td width="%85" align="left">
+            <input type="text" ID="txtwater" class="large" placeholder="Enter water value…" style="width:300px;" />
+			</td>
+		  </tr>
+		  <tr>
+		    <td width="%15" align="left"><strong>SP</strong></td>
+			<td width="%85" align="left">
+            <input type="text" ID="txtSP" class="large" placeholder="Enter SP value…" style="width:300px;" />
+			</td>
+		  </tr>
+		  <tr>
+		    <td width="%15" align="left"><strong>Coarse</strong></td>
+			<td width="%85" align="left">
+            <input type="text" ID="txtCoarse" class="large" placeholder="Enter Coarse value…" style="width:300px;" />
+			</td>
+		  </tr>
+		  <tr>
+		    <td width="%15" align="left"><strong>Fine Aggr</strong></td>
+			<td width="%85" align="left">
+            <input type="text" ID="txtFine" class="large" placeholder="Enter Fine value…" style="width:300px;" />
+			</td>
+		  </tr>
+		  
+		  </table>
+		  <button class="btn" id="sbt">Predict</button>
+		  <p id="result"></p>
+          </fieldset>
+</form>
+
+          
+          
+		  
+          </div>
+		  </div>
+        
+		
+     <!--   <footer>
+          <div class="container">
+          
+            <p align="center">&copy; UMKC 2014</p>
+            
+		  </div>
+          
+		  
+        </footer> -->
+		
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
